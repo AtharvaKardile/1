@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .menu-category {
+            margin-bottom: 3rem;
+        }
+        .menu-item {
+            border-bottom: 1px solid #ddd;
+            padding: 1rem 0;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .menu-item h5 {
+            margin-bottom: 0.5rem;
+        }
+        .menu-item p {
+            margin: 0;
+        }
+        .menu-item-price {
+            font-weight: bold;
+            color: #28a745;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark text-white text-center py-4">
+        <h1 class="mb-0">Restaurant Menu</h1>
+        <p class="lead">Delicious food for every taste</p>
+    </header>
+
+    <!-- Menu Section -->
+    <section class="py-5">
+        <div class="container">
+            <!-- Appetizers -->
+            <div class="menu-category">
+                <h2 class="text-center mb-4">Appetizers</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="menu-item">
+                            <h5>Spring Rolls</h5>
+                            <p class="text-muted">Crispy rolls stuffed with fresh vegetables and served with a tangy sauce.</p>
+                            <span class="menu-item-price">$7.99</span>
+                        </div>
+                        <div class="menu-item">
+                            <h5>Bruschetta</h5>
+                            <p class="text-muted">Grilled bread topped with fresh tomatoes, basil, and olive oil.</p>
+                            <span class="menu-item-price">$6.99</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-item">
+                            <h5>Stuffed Mushrooms</h5>
+                            <p class="text-muted">Mushrooms filled with creamy cheese and herbs, baked to perfection.</p>
+                            <span class="menu-item-price">$8.99</span>
+                        </div>
+                        <div class="menu-item">
+                            <h5>Garlic Bread</h5>
+                            <p class="text-muted">Toasted bread with garlic butter and a sprinkle of parsley.</p>
+                            <span class="menu-item-price">$4.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Entrées -->
+            <div class="menu-category">
+                <h2 class="text-center mb-4">Entrées</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="menu-item">
+                            <h5>Grilled Salmon</h5>
+                            <p class="text-muted">Fresh salmon fillet grilled and served with a lemon butter sauce.</p>
+                            <span class="menu-item-price">$18.99</span>
+                        </div>
+                        <div class="menu-item">
+                            <h5>Chicken Alfredo</h5>
+                            <p class="text-muted">Creamy pasta topped with grilled chicken and Parmesan cheese.</p>
+                            <span class="menu-item-price">$16.99</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-item">
+                            <h5>Beef Burger</h5>
+                            <p class="text-muted">Juicy beef patty with lettuce, tomato, cheese, and special sauce.</p>
+                            <span class="menu-item-price">$12.99</span>
+                        </div>
+                        <div class="menu-item">
+                            <h5>Vegetarian Pizza</h5>
+                            <p class="text-muted">Wood-fired pizza topped with fresh vegetables and mozzarella.</p>
+                            <span class="menu-item-price">$14.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu-category">
+                <h2 class="text-center mb-4">Desserts</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="menu-item">
+                            <h5>Chocolate Lava Cake</h5>
+                            <p class="text-muted">Rich chocolate cake with a gooey center, served with vanilla ice cream.</p>
+                            <span class="menu-item-price">$8.99</span>
+                        </div>
+                        <div class="menu-item">
+                            <h5>Cheesecake</h5>
+                            <p class="text-muted">Creamy cheesecake with a graham cracker crust and berry topping.</p>
+                            <span class="menu-item-price">$7.99</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-item">
+                            <h5>Tiramisu</h5>
+                            <p class="text-muted">Classic Italian dessert with layers of mascarpone and espresso-soaked ladyfingers.</p>
+                            <span class="menu-item-price">$9.99</span>
+                        </div>
+                        <div class="menu-item">
+                            <h5>Fruit Salad</h5>
+                            <p class="text-muted">A mix of fresh seasonal fruits served with a honey-lime dressing.</p>
+                            <span class="menu-item-price">$6.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Restaurant Name. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
